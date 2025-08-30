@@ -1,63 +1,63 @@
 # Soru 6 – While Döngüsü
 
-# liste = []
-# while True:
-#     sayi = int(input("sayı giriniz: "))
-#     liste.append(sayi)
-#     if sayi == 0:
-#         break
+liste = []
+while True:
+    sayi = int(input("sayı giriniz: "))
+    liste.append(sayi)
+    if sayi == 0:
+        break
 
-# toplam = 0
-# for sayi in liste:
-#     toplam = toplam + sayi
+toplam = 0
+for sayi in liste:
+    toplam = toplam + sayi
 
-# print(f" girdiginiz sayilarin listesi: {liste}")
-# print(f" girdiginiz sayilarin toplami: {toplam}")
+print(f" girdiginiz sayilarin listesi: {liste}")
+print(f" girdiginiz sayilarin toplami: {toplam}")
 
 
 # Soru 7 – Palindrom Kontrolü
 
-# kelime = input("kelime giriniz: ")
+kelime = input("kelime giriniz: ")
 
-# if kelime == kelime[::-1]:
-#     print("Girdiginiz kelime palindrom bir kelimedir")
+if kelime == kelime[::-1]:
+    print("Girdiginiz kelime palindrom bir kelimedir")
 
-# else:
-#     print("Girdiginiz kelime palindrom bir kelime degildir.")
+else:
+    print("Girdiginiz kelime palindrom bir kelime degildir.")
 
 # Soru 8 – List Comprehension
 
-# sayilar = 0
-# birdenYuze = []
+sayilar = 0
+birdenYuze = []
 
-# while sayilar < 100:
-#     sayilar += 1
-#     birdenYuze.append(sayilar)
+while sayilar < 100:
+    sayilar += 1
+    birdenYuze.append(sayilar)
     
 
-# uc_ve_bese_bolunenler = [sayi for sayi in birdenYuze if sayi % 3 == 0 and sayi % 5 == 0]
+uc_ve_bese_bolunenler = [sayi for sayi in birdenYuze if sayi % 3 == 0 and sayi % 5 == 0]
 
-# sayilarin_karesi = []
+sayilarin_karesi = []
 
-# for eleman in uc_ve_bese_bolunenler:
-#     karesi = eleman * eleman
-#     sayilarin_karesi.append(karesi)
+for eleman in uc_ve_bese_bolunenler:
+    karesi = eleman * eleman
+    sayilarin_karesi.append(karesi)
 
 
-# print(sayilarin_karesi)
+print(sayilarin_karesi)
 
 # Soru 9 – String İşlemleri
 
-# cumle = input("Cümle giriniz: ")
+cumle = input("Cümle giriniz: ")
 
-# ayrilmis = cumle.split()
+ayrilmis = cumle.split()
 
-# yeniString = ""   # boş string ile başlıyoruz
+yeniString = ""   # boş string ile başlıyoruz
 
-# for kelime in ayrilmis:
-#     yeniString = yeniString + kelime.capitalize() + " "
+for kelime in ayrilmis:
+    yeniString = yeniString + kelime.capitalize() + " "
 
-# print(yeniString)
+print(yeniString)
 
 # Mini Proje – Film Yorumu Analizi
 yorumlar = []
@@ -114,6 +114,7 @@ print("İyi kelimesi geçen yorum sayısı:", sayac)
 
     
         
+
 
 
 
